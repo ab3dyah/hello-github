@@ -8,5 +8,5 @@ def pattern(n):
     while k >= 1:
         print(' ' * (n-k) + '* ' * k)
         k -= 1
-
-pattern(10)
+n = int(input())
+pattern(n)
